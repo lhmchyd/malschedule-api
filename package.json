@@ -1,0 +1,20 @@
+{
+  "name": "hono",
+  "type": "module",
+  "scripts": {
+    "dev": "hono dev",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "hono": "^4.10.1",
+    "cheerio": "^1.1.2",
+    "@hono/node-server": "^1.19.5",
+    "undici": "^5.28.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3",
+    "hono-cli": "^1.1.0"
+  }
+}
