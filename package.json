@@ -2,8 +2,8 @@
   "name": "hono",
   "type": "module",
   "scripts": {
-    "dev": "hono dev",
-    "deploy": "vercel deploy"
+    "dev": "bun run server.js",
+    "start": "bun run server.js"
   },
   "dependencies": {
     "hono": "^4.10.1",
@@ -14,7 +14,6 @@
   "devDependencies": {
     "@types/node": "^20.11.17",
     "tsx": "^4.7.1",
-    "typescript": "^5.8.3",
-    "hono-cli": "^1.1.0"
+    "typescript": "^5.8.3"
   }
 }
